@@ -1814,7 +1814,14 @@ input:focus {
     justify-content: start;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 620px) {
+  .banner{
+    padding: 80px 0;
+  }
+  .user-main .user-image img{
+    width: 140px;
+    height: 140px;
+  }
   .line{
     width: 40% !important;
     left: 40% !important;
@@ -2358,12 +2365,15 @@ input:focus {
     margin-top: 10px;
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 620px) {
   .user-main .user-image {
-    top: -100px;
+    top: -60px;
+  }
+  .poject-info{
+    width: 85%;
   }
   .user-main .user-info {
-    margin-top: 85px;
+    margin-top: 65px;
   }
   .user-main .user-info .user-name {
     font-size: 20px;
